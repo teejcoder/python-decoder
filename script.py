@@ -34,5 +34,5 @@ def print_grid_from_google_doc(url):
         print(''.join(row))
 
 # Example usage
-url = "https://docs.google.com/document/d/e/2PACX-1vSHesOf9hv2sPOntssYrEdubmMQm8lwjfwv6NPjjmIRYs_FOYXtqrYgjh85jBUebK9swPXh_a5TJ5Kl/pub"
+url = "https://docs.google.com/document/d/e/<docID>"
 print_grid_from_google_doc(url)
